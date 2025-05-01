@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+  font-family: 'Open Sans', 'Tahoma', sans-serif;
+}
+
+body {
+  background-color: thistle;
+}
+
+.page-title, 
+.layout-properties-title, 
+.position-values-title {
+  text-align: center;
+  font-family: Merriweather, 'Linotype Didot', serif;
+}
+
+.layout-properties-title, 
+.position-values-title {
+  color: indigo;
+}
+
+thead {
+  background-color: mediumpurple;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+table {
+  border: solid;
+  min-width: 200px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+td {
+  border-bottom: 1px solid darkviolet;
+}
+
+
+td:nth-child(1) {  
+  padding-right: 30px;
+}
+
+
+tbody tr td span {
+  font-family: 'Space Mono', 'Courier New', sans-serif;
+  background-color: lavender;
+}
